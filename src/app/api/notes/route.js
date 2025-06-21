@@ -1,7 +1,5 @@
 import clientPromise from "@/lib/mongodb";
 
-export const runtime = "edge";
-
 export async function GET(request) {
   const client = await clientPromise;
   const db = client.db(); // default DB from connection string

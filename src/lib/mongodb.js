@@ -1,8 +1,6 @@
 // lib/mongodb.js
 import { MongoClient } from "mongodb";
 
-export const runtime = "edge";
-
 const uri = process.env.MONGODB_URI;
 const options = {};
 
